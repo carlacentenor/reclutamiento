@@ -1,0 +1,31 @@
+// Colors Brand
+$dark-red-ngr: #A83035;
+$light-red-ngr: #FF4338;
+$orange-ngr: #FF8300;
+$yellow-ngr: #FFC56C;
+$gray-1-ngr: #A0A0A0;
+$gray-2-ngr :#B8ACAC;
+$white-ngr :#FFF;
+//Tipography
+@font-face {
+    font-family: "Omnes";
+    src: url("../assets/fonts/Omnes_Regular.ttf");
+}
+
+@font-face {
+    font-family: "Omnes Semibold";
+    src: url("../assets/fonts/omnes-semibold-webfont.ttf");
+}
+
+@font-face {
+    font-family: "Omnes Bold";
+    src: url("../assets/fonts/Omnes_Bold.otf");
+}
+
+// Fonts Brand
+$font-family-base: "Omnes";
+$font-family-semi-bold: "Omnes Semibold";
+$font-family-base-bold: "Omnes Bold";
+// Variables Update Color
+$primary: $dark-red-ngr;
+$secondary: $gray-1-ngr;

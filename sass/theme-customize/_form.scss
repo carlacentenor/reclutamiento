@@ -1,0 +1,12 @@
+.form-control--border-input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 0;
+}
+
+.form-group--py {
+    @media screen and (min-width: 769px) {
+        padding: 1em 0 1em 0;
+    }
+}
