@@ -1,3 +1,4 @@
+//hide
 .hide-mobile {
     @media screen and (max-width: 769px) {
         display: none;
@@ -7,4 +8,13 @@
 // Position
 .pos-relative--bottom {
     bottom: -7rem;
+}
+
+//grid gutter especific mobile
+.grid-gutter-left {
+    padding-left: 0 !important;
+}
+
+.grid-gutter-right {
+    padding-right: 0 !important;
 }

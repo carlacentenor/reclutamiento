@@ -1,0 +1,7 @@
+// customice navbar
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+    &:active {
+        outline: none;
+    }
+}

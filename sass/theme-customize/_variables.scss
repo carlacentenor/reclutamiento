@@ -5,7 +5,9 @@ $orange-ngr: #FF8300;
 $yellow-ngr: #FFC56C;
 $gray-1-ngr: #A0A0A0;
 $gray-2-ngr :#B8ACAC;
+$gray-3-ngr: #6D6969;
 $white-ngr :#FFF;
+$white-2-ngr:#FAFAFA;
 //Tipography
 @font-face {
     font-family: "Omnes";
@@ -29,3 +31,10 @@ $font-family-base-bold: "Omnes Bold";
 // Variables Update Color
 $primary: $dark-red-ngr;
 $secondary: $gray-1-ngr;
+// Size title
+$title-5: 20px;
+$title-4: 1.8rem;
+$title-5:1.5rem;
+$title-6:1.2rem;
+$title-7:0.97rem;
+$title-8:0.9rem;

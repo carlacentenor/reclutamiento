@@ -21,6 +21,14 @@
   bottom: -7rem;
 }
 
+.grid-gutter-left {
+  padding-left: 0 !important;
+}
+
+.grid-gutter-right {
+  padding-right: 0 !important;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9974,6 +9982,74 @@ h3 {
 
 .carousel-img--2 {
   background-image: url("../images/bb-1.png");
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+.navbar-light .navbar-toggler:active {
+  outline: none;
+}
+
+.title-5-primary {
+  font-family: "Omnes Semibold";
+  font-size: 1.5rem;
+}
+
+.title-6-primary {
+  font-size: 1.2rem;
+}
+
+.title-7-primary {
+  font-size: 0.97rem;
+}
+
+.title-8-primary {
+  font-size: 0.9rem;
+}
+
+.text-gray-3 {
+  color: #6D6969;
+}
+
+.text-orange-2 {
+  color: #FF8300;
+}
+
+.font-weight-bold-2 {
+  font-family: "Omnes Bold";
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-style-2 {
+  background: #FAFAFA;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2), 0px 4px 5px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+}
+
+.card-opacity {
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+}
+
+.bg-config-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-card-vacant {
+  background-image: url("../images/bb-2.png");
+}
+
+.img-card-tip {
+  background-image: url("../images/bb-2.png");
 }
 
 /*# sourceMappingURL=main.css.map */
