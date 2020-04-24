@@ -64,6 +64,13 @@
         }
     }
     
+    .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        -ms-grid-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
     .index-2 {
         z-index: 2;
     }

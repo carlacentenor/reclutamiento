@@ -5,3 +5,19 @@
         outline: none;
     }
 }
+
+.menu-nav {
+    box-shadow: 0px 3px 8px #E5E5E5;
+    border-radius: 3px;
+    width: 280px;
+    top: 70px;
+    right: 0;
+    padding: 1em;
+    z-index: 3;
+    @media screen and (min-width: 768px) {
+        left: 0;
+        width: 190px;
+        box-shadow: none;
+        height: 200px;
+    }
+}
