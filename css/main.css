@@ -11,13 +11,13 @@
   font-family: "Omnes Bold";
   src: url("../assets/fonts/Omnes_Bold.otf");
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .hide-mobile {
     display: none;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .hide-desktop {
     display: none;
   }
@@ -35,7 +35,7 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .container-mobile {
     padding: 0;
   }
@@ -47,7 +47,7 @@
   -ms-grid-columns: 1fr 1fr;
   grid-gap: 10px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .align-special-grid {
     grid-template-columns: repeat(5, 1fr);
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -70,6 +70,10 @@
   align-items: center;
   justify-items: center;
   grid-gap: 1em;
+}
+
+.index-2 {
+  z-index: 2;
 }
 
 /*!
@@ -9955,7 +9959,7 @@ h3 {
   border-radius: 0;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .form-group--py {
     padding: 1em 0 1em 0;
   }
@@ -9974,7 +9978,7 @@ h3 {
   background-repeat: no-repeat;
   padding: 0 2rem 0 2rem;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .bg-login {
     background-image: none;
     background-color: #FFF;
@@ -9985,7 +9989,7 @@ h3 {
 .w-max-login {
   padding: 3rem;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .w-max-login {
     padding: 0;
     max-width: 400px;
@@ -9995,7 +9999,7 @@ h3 {
 .img-size--logo {
   width: 200px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .img-size--logo {
     width: 250px;
   }
@@ -10068,11 +10072,15 @@ h3 {
   font-size: 1.2rem;
 }
 
+.title-7-primary {
+  font-size: 0.97rem;
+}
+
 .title-8-primary {
   font-size: 0.9rem;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .title-6-primary--desktop {
     font-family: "Omnes Bold";
     font-size: 2rem;
@@ -10131,7 +10139,7 @@ h3 {
 .h-img-card {
   height: 180px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .h-img-card {
     height: 288px;
   }
@@ -10154,6 +10162,24 @@ h3 {
 
 .img-vacant--item {
   width: 80px;
+}
+
+.pos-bg-logo-left {
+  left: 0;
+  top: 64vh;
+  z-index: 0;
+}
+
+.pos-bg-logo-right {
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.pos-bg-logo-right-2 {
+  right: 0;
+  top: -208px;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 2rem 0 2rem;
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
         background-image: none;
         background-color: $white-ngr;
         padding: 0;
@@ -13,7 +13,7 @@
 
 .w-max-login {
     padding: 3rem;
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
         padding: 0;
         max-width: 400px;
     }
@@ -21,7 +21,7 @@
 
 .img-size--logo {
     width: 200px;
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
         width: 250px;
     }
 }

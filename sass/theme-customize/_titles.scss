@@ -33,12 +33,16 @@
     font-size: $title-6;
 }
 
+.title-7-primary {
+    font-size: $title-7;
+}
+
 .title-8-primary {
     font-size: $title-8;
 }
 
 .title-6-primary--desktop {
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 768px) {
         font-family: $font-family-base-bold;
         font-size: $title-3;
         text-align: center;

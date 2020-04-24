@@ -16,3 +16,21 @@
 .img-vacant--item {
     width: 80px;
 }
+
+.pos-bg-logo-left {
+    left: 0;
+    top: 64vh;
+    z-index: 0;
+}
+
+.pos-bg-logo-right {
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.pos-bg-logo-right-2 {
+    right: 0;
+    top: -208px;
+    z-index: 0;
+}
