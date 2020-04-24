@@ -4,10 +4,15 @@
     background-repeat: no-repeat;
 }
 
+.bg-vacant-desktop {
+    background-image: url("../images/pj-1.png");
+    height: 700px;
+}
+
 .img-card-vacant {
     background-image: url("../images/bb-2.png");
 }
 
-.img-card-tip {
-    background-image: url("../images/bb-2.png");
+.img-vacant--item {
+    width: 80px;
 }

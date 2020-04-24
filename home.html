@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <header>
+    <!-- Navbar Mobile -->
+    <header class="hide-desktop">
         <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" width="97" height="43" class="d-inline-block align-top" alt="log-ngr">
@@ -33,12 +34,20 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="mt-4">
+    <!-- Content Home -->
+    <main class="container-mobile">
+        <!-- Titulo Inicial Mobile-->
+        <div class="mt-4 hide-desktop">
             <h4 class="text-primary title-5-primary">Hola Pedro</h4>
             <h5 class="title-6-primary text-gray-3">Vacantes Preferenciales</h5>
         </div>
-        <div>
+        <!-- Titulo Desktop -->
+        <div class="my-5 hide-mobile text-center">
+            <h1 class=" title-1-primary font-weight-bold-2"> <span class="text-success">Primera</span> <span class="text-primary">opción</span> <span class="text-orange-2">! !</span></h1>
+        </div>
+
+        <!-- Card Vacante Mobile -->
+        <div class="hide-desktop">
             <div class="card card-style-2  mb-3 w-100 text-gray-3 my-3">
                 <div class="row no-gutters">
                     <div class="col-4 bg-config-card img-card-vacant rounded-left">
@@ -53,69 +62,161 @@
                 </div>
             </div>
         </div>
-        <div class="mb-3">
-            <h5 class="title-6-primary text-gray-3">Estos son los <span class="text-orange-2 font-weight-bold-2">Beneficios</span> que aún tienes disponible</h5>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 grid-gutter-left">
-                    <figure class="position-relative">
-                        <img class="img-fluid" src="images/innova.png" alt="">
-                        <figcaption class="card-opacity p-1 ">
-                            <p class="text-white font-weight-bold-2 m-0">Innova Schools </p>
-                            <p class="text-white m-0 title-8-primary">5% de descuento</p>
-                        </figcaption>
-                    </figure>
-
+        <!-- Card Vacante Desktop -->
+        <div class=" hide-mobile container bg-config-card bg-vacant-desktop position-relative">
+            <div class="position-absolute container-card-opacity card-opacity-vacant text-white p-4">
+                <div>
+                    <p class="font-weight-bold-2 text-uppercase title-5-primary text-center">Últimas oportunidades</p>
                 </div>
-                <div class="col-6 grid-gutter-right ">
-                    <figure class="position-relative">
-                        <img class="img-fluid" src="images/vea.png" alt="">
-                        <figcaption class="card-opacity p-1 ">
-                            <p class="text-white font-weight-bold-2 m-0">Plaza Vea </p>
-                            <p class="text-white m-0 title-8-primary">hasta 10% de descuento</p>
-                        </figcaption>
-                    </figure>
+                <!-- Items Vacantes Desktop -->
+                <div>
+                    <div class="card mb-3 w-100  bg-transparent border-top-0 border-left-0 border-right-0 border-white rounded-0 pb-2">
+                        <div class="row no-gutters">
 
+                            <div class="col-md-8">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title font-weight-bold-2 mb-1 text-uppercase">Cajero</h5>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Tienda: Pro</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Part Time</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Rotativo - AM</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Lima</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center justify-content-end">
+                                <img class="img-vacant--item " src="images/vea-1.png" class="card-img" alt="plaza-vea">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-100  bg-transparent border-top-0 border-left-0 border-right-0 border-white rounded-0 pb-2">
+                        <div class="row no-gutters">
+
+                            <div class="col-md-8">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title font-weight-bold-2 mb-1 text-uppercase">Cajero</h5>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Tienda: Pro</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Part Time</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Rotativo - AM</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Lima</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center justify-content-end">
+                                <img class="img-vacant--item " src="images/inka-1.png" class="card-img" alt="plaza-vea">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-100  bg-transparent border-top-0 border-left-0 border-right-0 border-white rounded-0 pb-2">
+                        <div class="row no-gutters">
+
+                            <div class="col-md-8">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title font-weight-bold-2 mb-1 text-uppercase">Cajero</h5>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Tienda: Pro</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Part Time</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Rotativo - AM</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Lima</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center justify-content-end">
+                                <img class="img-vacant--item " src="images/vea-1.png" class="card-img" alt="plaza-vea">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-100  bg-transparent border-top-0 border-left-0 border-right-0 border-white rounded-0 pb-2">
+                        <div class="row no-gutters">
+
+                            <div class="col-md-8">
+                                <div class="card-body p-0">
+                                    <h5 class="card-title font-weight-bold-2 mb-1 text-uppercase">Cajero</h5>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Tienda: Pro</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Part Time</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Rotativo - AM</p>
+                                    <p class="card-text mb-0 title-6-primary lh-text-vacant">Lima</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex align-items-center justify-content-end">
+                                <img class="img-vacant--item " src="images/inka-1.png" class="card-img" alt="plaza-vea">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6 grid-gutter-left ">
-                    <figure class="position-relative">
-                        <img class="img-fluid" src="images/inka.png" alt="">
-                        <figcaption class="card-opacity p-1 ">
-                            <p class="text-white font-weight-bold-2 m-0">Inkafarma </p>
-                            <p class="text-white m-0 title-8-primary">5% de descuento</p>
-                        </figcaption>
-                    </figure>
-
-                </div>
-                <div class="col-6 grid-gutter-right ">
-                    <figure class="position-relative">
-                        <img class="img-fluid" src="images/vivanda.png" alt="">
-                        <figcaption class="card-opacity p-1 ">
-                            <p class="text-white font-weight-bold-2 m-0">Vivanda </p>
-                            <p class="text-white m-0 title-8-primary">hasta 10% de descuento</p>
-                        </figcaption>
-                    </figure>
-
-                </div>
-                <div class="col-6 grid-gutter-left ">
-                    <figure class="position-relative">
-                        <img class="img-fluid" src="images/utp.png" alt="">
-                        <figcaption class="card-opacity p-1 ">
-                            <p class="text-white font-weight-bold-2 m-0">UTP </p>
-                            <p class="text-white m-0 title-8-primary">X% de descuento</p>
-                        </figcaption>
-                    </figure>
-
+                <!-- Ver mas -->
+                <div class="text-center">
+                    <a class="font-weight-bold-2 text-uppercase text-white title-6-primary" href="">Ver más</a>
                 </div>
             </div>
+            <div class="text-white position-absolute position-text-vacant w-60">
+                <h2 class="font-weight-bold-2 title-2-primary  mb-0">Eres nuestra primera opción</h2>
+                <p class="title-5-vacant">Descubre los puestos de trabajo que tenemos disponibles en NGR e Intercorp</p>
+            </div>
+        </div>
 
+        <!-- Beneficios -->
+        <!-- Titulo Beneficios -->
+        <div class="mb-3 ">
+            <h5 class="title-6-primary title-6-primary--desktop text-gray-3">Estos son los <span class="text-orange-2 font-weight-bold-2">Beneficios</span> que aún tienes disponible</h5>
         </div>
-        <div class="mb-3">
-            <h5 class="title-6-primary text-gray-3">Conoce los mejores <span class="text-primary font-weight-bold-2">tips</span> de empleabilidad</h5>
+        <!-- Beneficios Item -->
+        <div class="">
+            <div class=" align-special-grid">
+                <div class="position-relative bg-config-card h-img-card" style="background-image: url('images/innova.png');">
+                    <div class="card-opacity p-1 ">
+                        <p class="text-white font-weight-bold-2 m-0">Innova Schools </p>
+                        <p class="text-white m-0 title-8-primary">5% de descuento</p>
+                    </div>
+                </div>
+
+                <div class="position-relative bg-config-card h-img-card" style="background-image: url(images/vea.png);">
+
+                    <div class="card-opacity p-1 ">
+                        <p class="text-white font-weight-bold-2 m-0">Plaza Vea </p>
+                        <p class="text-white m-0 title-8-primary">hasta 10% de descuento</p>
+                    </div>
+                </div>
+
+
+
+                <div class="position-relative bg-config-card h-img-card" style="background-image: url(images/inka.png);">
+
+                    <div class="card-opacity p-1 ">
+                        <p class="text-white font-weight-bold-2 m-0">Inkafarma </p>
+                        <p class="text-white m-0 title-8-primary">5% de descuento</p>
+                    </div>
+                </div>
+
+
+
+                <div class="position-relative bg-config-card h-img-card" style="background-image: url(images/vivanda.png);">
+
+                    <div class="card-opacity p-1 ">
+                        <p class="text-white font-weight-bold-2 m-0">Vivanda </p>
+                        <p class="text-white m-0 title-8-primary">hasta 10% de descuento</p>
+                    </div>
+                </div>
+
+
+
+                <div class="position-relative bg-config-card h-img-card" style="background-image: url(images/utp.png);">
+
+                    <div class="card-opacity p-1 ">
+                        <p class="text-white font-weight-bold-2 m-0">UTP </p>
+                        <p class="text-white m-0 title-8-primary">X% de descuento</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
+
         <!-- Tips -->
-        <div>
+        <!-- Title General Tips -->
+        <div class="mb-3">
+            <h5 class="title-6-primary title-6-primary--desktop text-gray-3 mt-3">Conoce los mejores <span class="text-primary font-weight-bold-2">tips</span> de empleabilidad</h5>
+        </div>
+        <!-- Tips Mobile-->
+        <div class="hide-desktop">
             <div class="card card-style-2  mb-3 w-100 text-gray-3 my-3">
                 <div class="row no-gutters">
                     <div class="col-3 bg-config-card rounded-left" style="background-image: url(images/tip-1.png);">
@@ -159,6 +260,38 @@
                 </div>
             </div>
         </div>
+        <!-- Tips Desktop -->
+        <div class="hide-mobile container">
+            <div class="grid-3">
+                <div class="card border-0">
+                    <img src="images/tip-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-gray-3">
+                        <h5 class="card-title font-weight-bold-2">Asiste puntualmente</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="images/tip-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-gray-3">
+                        <h5 class="card-title font-weight-bold-2">Asiste puntualmente</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <img src="images/tip-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-gray-3">
+                        <h5 class="card-title font-weight-bold-2">Asiste puntualmente</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
     </main>
 
 

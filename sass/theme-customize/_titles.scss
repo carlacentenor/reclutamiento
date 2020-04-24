@@ -4,16 +4,51 @@
     font-size: $title-5;
 }
 
+.title-5-vacant {
+    font-size: $title-5;
+    line-height: 1;
+}
+
+.title-1-primary {
+    font-size: $title-1;
+}
+
+.title-2-primary {
+    font-size: $title-2;
+}
+
+.title-3-primary {
+    font-size: $title-3;
+}
+
+.title-4-primary {
+    font-size: $title-4;
+}
+
+.title-5-primary {
+    font-size: $title-5;
+}
+
 .title-6-primary {
     font-size: $title-6;
 }
 
-.title-7-primary {
-    font-size: $title-7;
-}
-
 .title-8-primary {
     font-size: $title-8;
+}
+
+.title-6-primary--desktop {
+    @media screen and (min-width: 769px) {
+        font-family: $font-family-base-bold;
+        font-size: $title-3;
+        text-align: center;
+        margin-top: 3rem !important;
+        margin-bottom: 3rem;
+    }
+}
+
+.lh-text-vacant {
+    line-height: 1.2;
 }
 
 // Color Text
@@ -28,4 +63,9 @@
 // Text Weight
 .font-weight-bold-2 {
     font-family: $font-family-base-bold;
+}
+
+// Posiiton Title
+.position-text-vacant {
+    bottom: 0;
 }
