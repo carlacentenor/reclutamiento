@@ -71,6 +71,12 @@
   justify-items: center;
   grid-gap: 1em;
 }
+@media (min-width: 767px) and (max-width: 1024px) {
+  .grid-7 {
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
 
 .index-2 {
   z-index: 2;
@@ -10135,6 +10141,11 @@ h3 {
   height: inherit;
   background: rgba(0, 0, 0, 0.5);
 }
+@media (min-width: 767px) and (max-width: 992px) {
+  .card-opacity-vacant {
+    width: 40%;
+  }
+}
 
 .h-img-card {
   height: 180px;
@@ -10155,6 +10166,11 @@ h3 {
   background-image: url("../images/pj-1.png");
   height: 700px;
 }
+@media (min-width: 767px) and (max-width: 1024px) {
+  .bg-vacant-desktop {
+    height: 745px;
+  }
+}
 
 .img-card-vacant {
   background-image: url("../images/bb-2.png");
@@ -10169,17 +10185,32 @@ h3 {
   top: 64vh;
   z-index: 0;
 }
+@media (min-width: 767px) and (max-width: 992px) {
+  .pos-bg-logo-left {
+    display: none;
+  }
+}
 
 .pos-bg-logo-right {
   right: 0;
   top: 0;
   z-index: 0;
 }
+@media (min-width: 767px) and (max-width: 992px) {
+  .pos-bg-logo-right {
+    display: none;
+  }
+}
 
 .pos-bg-logo-right-2 {
   right: 0;
   top: -208px;
   z-index: 0;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .pos-bg-logo-right-2 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

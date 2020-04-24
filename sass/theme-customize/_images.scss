@@ -7,6 +7,9 @@
 .bg-vacant-desktop {
     background-image: url("../images/pj-1.png");
     height: 700px;
+    @media (min-width: 767px) and (max-width: 1024px) {
+        height: 745px;
+    }
 }
 
 .img-card-vacant {
@@ -21,16 +24,25 @@
     left: 0;
     top: 64vh;
     z-index: 0;
+    @media (min-width: 767px) and (max-width: 992px) {
+        display: none;
+    }
 }
 
 .pos-bg-logo-right {
     right: 0;
     top: 0;
     z-index: 0;
+    @media (min-width: 767px) and (max-width: 992px) {
+        display: none;
+    }
 }
 
 .pos-bg-logo-right-2 {
     right: 0;
     top: -208px;
     z-index: 0;
+    @media (min-width: 767px) and (max-width: 992px) {
+        display: none;
+    }
 }
