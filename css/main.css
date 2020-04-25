@@ -10090,6 +10090,16 @@ h3 {
   }
 }
 
+.btn-close--modal {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+}
+.btn-close--modal span {
+  font-size: 1rem;
+}
+
 .bg-login {
   height: 100vh;
   background-image: url("../images/fondo-login.png");

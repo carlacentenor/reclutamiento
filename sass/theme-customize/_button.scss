@@ -12,3 +12,13 @@
         margin: 10px;
     }
 }
+
+.btn-close--modal {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    span {
+        font-size: 1rem;
+    }
+}
