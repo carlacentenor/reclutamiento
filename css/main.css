@@ -27,6 +27,10 @@
   bottom: -7rem;
 }
 
+.pos-banner-title {
+  bottom: 25px;
+}
+
 @media screen and (min-width: 768px) {
   .pos-input-search {
     bottom: 50px;
@@ -10216,6 +10220,12 @@ h3 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .title-7-primary--desktop {
+    font-size: 1.2rem;
+  }
+}
+
 .lh-text-vacant {
   line-height: 1.2;
 }
@@ -10375,6 +10385,23 @@ h3 {
 
 .brand-detail {
   width: 180px;
+}
+
+.banner-tip {
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  .banner-tip {
+    height: 500px;
+  }
+}
+
+.bg-tip-opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: inherit;
 }
 
 /*# sourceMappingURL=main.css.map */
