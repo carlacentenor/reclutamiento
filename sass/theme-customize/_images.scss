@@ -54,3 +54,22 @@
 .icon-menu {
     width: 40px;
 }
+
+.bg-search {
+    @media screen and (min-width: 768px) {
+        background-image: url("../images/Img-fondo-buscador.png");
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.bg-ngr {
+    @media screen and (min-width: 992px) {
+        background-image: url("../images/fondo.png");
+        background-size: 105%;
+        background-position: top;
+        background-repeat: repeat-y;
+    }
+}

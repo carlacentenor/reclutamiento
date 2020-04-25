@@ -14,8 +14,34 @@
 .icon-input {
     background: url(../images/search.png) no-repeat scroll 7px 7px;
     padding-left: 38px;
+    @media screen and (min-width: 768px) {
+        background: url(../images/search.png) no-repeat scroll 7px 11px;
+    }
 }
 
 .input-margin--mobile {
     margin-top: 2rem;
+    @media screen and (min-width: 768px) {
+        margin-top: 0rem;
+    }
+}
+
+.input-size-search {
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+    }
+    @media screen and (min-width: 1024px) {
+        width: 290px;
+        height: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+.mb-d {
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+    }
 }
