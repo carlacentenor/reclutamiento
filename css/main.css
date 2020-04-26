@@ -143,6 +143,10 @@
   border-radius: 2px;
 }
 
+.round-modal {
+  border-radius: 1.5rem !important;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10249,6 +10253,12 @@ h3 {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .title-5-primary--desktop {
+    font-size: 1.5rem;
+  }
+}
+
 .lh-text-vacant {
   line-height: 1.2;
 }
@@ -10438,6 +10448,23 @@ h3 {
 
 .logo-admin {
   width: 150px;
+}
+
+.img-benefit {
+  width: 150px;
+}
+@media screen and (min-width: 992px) {
+  .img-benefit {
+    width: 100%;
+    padding: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img-brand-job {
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

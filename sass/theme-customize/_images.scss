@@ -97,3 +97,18 @@
 .logo-admin {
     width: 150px;
 }
+
+.img-benefit {
+    width: 150px;
+    @media screen and (min-width: 992px) {
+        width: 100%;
+        padding: 3rem;
+    }
+}
+
+.img-brand-job {
+    @media screen and (min-width: 992px) {
+        width: 100%;
+        padding: 1rem;
+    }
+}

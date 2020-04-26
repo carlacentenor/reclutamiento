@@ -63,6 +63,12 @@
     }
 }
 
+.title-5-primary--desktop {
+    @media screen and (min-width: 768px) {
+        font-size: $title-5;
+    }
+}
+
 .lh-text-vacant {
     line-height: 1.2;
 }
