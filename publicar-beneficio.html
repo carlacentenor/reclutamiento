@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Reclutamiento NGR</title>
+
+</head>
+
+<body>
+    <header class="px-5 py-3 d-flex flex-row justify-content-md-between align-items-center">
+        <a class="pos-icon--back" href="#" type="button">
+            <span class="font-weight-bold-2 text-gray-3 title-5-primary"><img class="icon-menu" src="images/back.png" alt="">Volver</span>
+        </a>
+        <div>
+            <img class="logo-admin" src="images/logo.png" alt="logo-ngr">
+        </div>
+
+    </header>
+    <main class="container mt-5">
+        <div>
+            <div class="row mb-d  ">
+
+                <div class="col-6">
+                    <label for="title-tip">Título del Beneficio</label>
+                    <input type="text" class="  bg-white form-control border shadow" id="title-tip">
+                </div>
+                <div class="col-6">
+                    <label for="image-tip">Imagen</label>
+                    <input type="file" class="form-control-file shadow" id="image-tip">
+                    <small class="form-text text-muted">Las dimensiones deben ser de 288 x 288px</small>
+                </div>
+            </div>
+            <div class="form-group mt-5">
+                <label for="description">Detalle</label>
+                <textarea id="description" class="form-control shadow border" rows="10"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="button" class="w-25 btn btn-info text-white btn--text-bold my-4">Vista Previa</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
