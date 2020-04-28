@@ -147,6 +147,10 @@
   border-radius: 1.5rem !important;
 }
 
+.cursor {
+  cursor: pointer;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10228,7 +10232,7 @@ h3 {
 }
 
 .title-8-primary {
-  font-size: 0.9rem;
+  font-size: 13px;
 }
 
 @media screen and (min-width: 768px) {
@@ -10256,6 +10260,12 @@ h3 {
 @media screen and (min-width: 768px) {
   .title-5-primary--desktop {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title-4-primary--desktop {
+    font-size: 1.8rem;
   }
 }
 
@@ -10329,6 +10339,59 @@ h3 {
 
 .rounded-card-admin {
   border-radius: 20px;
+}
+
+.card-benefit {
+  height: 190px;
+}
+@media screen and (min-width: 768px) {
+  .card-benefit {
+    height: 390px;
+  }
+}
+
+.card-position {
+  padding: 5px;
+}
+@media screen and (min-width: 992px) {
+  .card-position {
+    padding: 2em;
+  }
+}
+
+.pos-bot {
+  bottom: -7px;
+}
+@media screen and (min-width: 768px) {
+  .pos-bot {
+    bottom: 0;
+  }
+}
+
+.card--hover:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.bg-benefit-1 {
+  background-image: url(../images/beneficio1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-benefit-2 {
+  background-image: url(../images/intercorp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-benefit-3 {
+  background-image: url(../images/estado.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .h-img-card {
@@ -10465,6 +10528,14 @@ h3 {
     width: 100%;
     padding: 1rem;
   }
+}
+
+.job-img {
+  max-height: 96px;
+}
+
+.icon-down {
+  height: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

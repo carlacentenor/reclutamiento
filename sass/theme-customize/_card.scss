@@ -46,6 +46,55 @@
     border-radius: 20px;
 }
 
+.card-benefit {
+    height: 190px;
+    @media screen and (min-width: 768px) {
+        height: 390px;
+    }
+}
+
+.card-position {
+    padding: 5px;
+    @media screen and (min-width: 992px) {
+        padding: 2em;
+    }
+}
+
+.pos-bot {
+    bottom: -7px;
+    @media screen and (min-width: 768px) {
+        bottom: 0;
+    }
+}
+
+.card--hover {
+    &:hover {
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+        cursor: pointer;
+    }
+}
+
+.bg-benefit-1 {
+    background-image: url(../images/beneficio1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-benefit-2 {
+    background-image: url(../images/intercorp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-benefit-3 {
+    background-image: url(../images/estado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 // height card opacity personalice
 .h-img-card {
     height: 180px;
