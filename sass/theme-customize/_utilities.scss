@@ -81,35 +81,6 @@
         }
     }
     
-    .grid-3 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        -ms-grid-columns: 1fr 1fr 1fr;
-        grid-gap: 4rem;
-    }
-    
-    .grid-7 {
-        display: grid;
-        grid-template-columns: repeat(7, 1fr);
-        -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        align-items: center;
-        justify-items: center;
-        grid-gap: 1em;
-        // Medium devices (tablets, 768px and up)
-        @media (min-width: 767px) and (max-width: 1024px) {
-            grid-template-columns: repeat(4, 1fr);
-            -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        }
-    }
-    
-    .grid-2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        -ms-grid-columns: 1fr 1fr;
-        align-items: center;
-        justify-items: flex-end;
-    }
-    
     .index-2 {
         z-index: 2;
     }

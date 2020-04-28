@@ -96,36 +96,6 @@
   }
 }
 
-.grid-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  -ms-grid-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-}
-
-.grid-7 {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  align-items: center;
-  justify-items: center;
-  grid-gap: 1em;
-}
-@media (min-width: 767px) and (max-width: 1024px) {
-  .grid-7 {
-    grid-template-columns: repeat(4, 1fr);
-    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  -ms-grid-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: flex-end;
-}
-
 .index-2 {
   z-index: 2;
 }
@@ -10027,6 +9997,93 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.grid-3 {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 1em 1fr 1em 1fr;
+  grid-gap: 4rem;
+}
+.grid-3 div:nth-child(1) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+.grid-3 div:nth-child(2) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+}
+.grid-3 div:nth-child(3) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 1;
+}
+
+.grid-7 {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(7, 1fr);
+  -ms-grid-columns: 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr 1em 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 1em;
+}
+@media (min-width: 767px) and (max-width: 1024px) {
+  .grid-7 {
+    grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.grid-7 div:nth-child(1) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(2) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(3) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 5;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(4) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 7;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(5) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 9;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(6) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 11;
+  -ms-grid-row: 1;
+}
+.grid-7 div:nth-child(7) {
+  display: -ms-flexbox;
+  justify-content: center;
+  -ms-grid-column: 13;
+  -ms-grid-row: 1;
+}
+
+.grid-2 {
+  display: grid;
+  display: -ms-grid;
+  grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: flex-end;
+}
+
 .form-control--border-input {
   border-top: none;
   border-right: none;
