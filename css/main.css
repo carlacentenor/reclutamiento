@@ -10357,6 +10357,35 @@ h3 {
   border: none;
 }
 
+.flex-jobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-job {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s;
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .flex-job {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 993px) {
+  .flex-job {
+    width: 30%;
+  }
+}
+.flex-job:hover {
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
 .card-opacity {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
